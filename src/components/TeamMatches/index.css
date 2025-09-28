@@ -1,0 +1,60 @@
+/* Write your CSS here */
+.teamMatchContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #1e293b;
+  min-height: 100vh;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+.KXP {
+  background-image: linear-gradient(to bottom, #d91c1f, #1e293b);
+}
+.CSK {
+  background-image: linear-gradient(to bottom, #f7db00, #1e293b);
+}
+.SRH {
+  background-image: linear-gradient(to bottom, #f26d22, #1e293b);
+}
+.MI {
+  background-image: linear-gradient(to bottom, #13418b, #1e293b);
+}
+.RCB {
+  background-image: linear-gradient(to bottom, #a4261d, #1e293b);
+}
+.RR {
+  background-image: linear-gradient(to bottom, #da237b, #1e293b);
+}
+.DC {
+  background-image: linear-gradient(to bottom, #4f5db0, #1e293b);
+}
+.KKR {
+  background-image: linear-gradient(to bottom, #5755a7, #1e293b);
+}
+.tm-subContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.teamBannerImage {
+  width: 100%;
+  margin-bottom: 15px;
+  border-radius: 5px;
+}
+.lmText {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+.mc-ul-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+}

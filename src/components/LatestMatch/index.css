@@ -1,0 +1,81 @@
+/* Write your CSS here */
+.latestMatchContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #0f172a;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  font-family: 'Bree Serif';
+  width: 100%;
+}
+.lmFirstContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.competingTeamText {
+  font-size: 20px;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+.dateText {
+  color: #ffffff;
+  font-size: 16px;
+  margin-bottom: 12px;
+}
+.resultText,
+.venueText {
+  color: #ffffff;
+  font-size: 14px;
+  margin-bottom: 8px;
+  margin-right: 10px;
+}
+.competingTeamImage {
+  width: 150px;
+  height: 160px;
+  margin-right: 10px;
+}
+.lmLastContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+.head-lm-text {
+  color: #ffffff;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+.value-lm-text {
+  color: #ffffff;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .latestMatchContainer {
+    flex-wrap: wrap;
+  }
+
+  .lmFirstContainer {
+    width: 45%; /* left side */
+    margin-bottom: 15px;
+  }
+
+  .competingTeamImage {
+    width: 45%; /* right side */
+    height: auto;
+    margin-bottom: 15px;
+  }
+
+  .lmLastContainer {
+    width: 100%; /* force to bottom full width */
+    align-items: flex-start; /* align text to left */
+    margin-top: 10px;
+    border-top: 1.5px solid #ffffff;
+  }
+}

@@ -1,0 +1,38 @@
+/* Write your CSS here */
+a {
+  text-decoration: none;
+}
+.LinkCon {
+  width: 45%;
+  box-sizing: border-box;
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+.eachTeamContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: 1.5px solid #ffffff;
+  border-radius: 6px;
+  background-color: #ffffff33;
+  padding: 10px;
+
+  width: 100%;
+}
+.teamImage {
+  width: 100px;
+  height: 150px;
+  margin-right: 10px;
+}
+.teamHeading {
+  color: #ffffff;
+  font-size: 26px;
+  font-family: 'Bree Serif';
+  margin-right: 10px;
+  width: 200px;
+}
+@media (max-width: 768px) {
+  .LinkCon {
+    width: 100%;
+  }
+}
